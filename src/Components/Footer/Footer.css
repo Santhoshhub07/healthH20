@@ -1,0 +1,115 @@
+footer{
+     background-color: bisque;
+     height: 40vh;
+     width: 100%;
+     padding: 10px 0px;
+}
+
+.footer1{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+
+.AboutCom{
+     width: 30%;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     justify-content: center;
+     align-items: start;
+}
+
+.AboutCom h5{
+     font-size: 2rem;
+}
+
+.AboutCom p{
+     font-size: 1.1rem;
+}
+
+.ContactDiv{
+     width: 20%;
+}
+
+.con img{
+     width: 20px;
+     height: 20px;
+}
+
+.con{
+     display: flex;
+     align-items: center;
+     gap: 20px;
+     padding: 5px 0px;
+}
+
+.con p{
+     font-size: 1rem;
+}
+
+.socialMedia{
+     padding-top: 30px;
+     display: flex;
+     flex-direction: column;
+}
+
+.socialMedia a img{
+     width: 50px;
+     height: 40px;
+}
+
+.Fline{
+     width: 80%;
+     height: 2px;
+     background-color: white;
+}
+
+.footer2{
+     padding: 10px 0px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.socialMediaIn{
+     padding-top: 20px;
+     display: flex;
+     gap: 10px;
+     justify-content: center;
+     align-items: center;
+}
+
+
+@media(max-width:768px){
+     footer{
+          background-color: bisque;
+          height: 100%;
+          width: 100%;
+          padding: 10px 0px;
+          
+     }
+
+     .AboutCom p{
+          font-size: 1rem;
+     }
+
+     .footer1{
+          flex-direction:column;
+          align-items: start;
+     }
+     
+     .AboutCom{
+          width: 100%;
+          gap: 10px;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          margin-bottom: 50px;
+     }
+
+     .ContactDiv{
+          width: 100%;
+     }
+}

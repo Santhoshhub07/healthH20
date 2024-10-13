@@ -1,0 +1,28 @@
+.headingDiv{
+     width: 100%;
+     height: 10vh;
+     display:flex;
+     justify-content: center;
+     align-items: center;        
+}
+
+
+.HeadingIn h3{
+     font-size: 1.9rem;
+     font-weight: 800;
+     text-decoration: underline 3px solid var(--btn-color1);
+}
+
+
+@media (max-width:768px){
+     .headingDiv{
+          justify-content: center;
+     }
+
+     .HeadingIn{
+          padding-left: 0px;
+     }
+     .HeadingIn h3{
+          font-size: 1.5rem;
+     }
+}

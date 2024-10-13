@@ -1,0 +1,100 @@
+.HomeDiv{
+     width: 100%;
+     height: 40vh; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.HomeIn{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.HomeIn h1{
+     padding: 15px 0px;
+     font-size: 3.8rem;
+     color: skyblue;
+}
+
+.HomeIn h1 span{
+     color: var(--btn-color1);
+}
+
+.HomeIn h2{
+     padding: 0px 0px 30px 0px;
+     font-size: 1.5rem;
+}
+
+.HomeIn button{
+     padding: 10px 20px;
+     font-weight: 600;
+     font-size: 1rem;
+     border-radius: 8px;
+     background-color: var(--btn-color1);
+     color: white;
+}
+
+@media (max-width:1280px) {
+     .HomeIn h1{
+          padding: 14px 0px;
+          font-size: 3.6rem;
+     }
+     
+     .HomeIn h2{
+          padding: 0px 0px 28px 0px;
+          font-size: 1.4rem;
+     }
+}
+
+@media (max-width:1024px) {
+     .HomeIn h1{
+          padding: 12px 0px;
+          font-size: 3rem;
+     }
+     
+     .HomeIn h2{
+          padding: 0px 0px 24px 0px;
+          font-size: 1.2rem;
+     }
+}
+
+
+@media (max-width:768px) {
+     .HomeDiv{
+          width: 100%;
+          height: 40vh; 
+     }
+     
+     .HomeIn h1{
+          padding: 12px 0px;
+          font-size: 2.1rem;
+     }
+     
+     .HomeIn h2{
+          padding: 0px 0px 24px 0px;
+          font-size: 1.2rem;
+     }
+     
+.HomeIn button{
+     padding: 8px 18px;
+     font-size: .9rem;
+}
+}
+
+@media (max-width:640px) {
+     .HomeIn h1{
+          padding: 9px 0px;
+          font-size: 2.1rem;
+     }
+     
+     .HomeIn h2{
+          padding: 0px 0px 14px 0px;
+          font-size: 1rem;
+     }
+     .HomeIn button{
+          padding: 8px 18px;
+          font-size: 1rem;
+     }
+}
